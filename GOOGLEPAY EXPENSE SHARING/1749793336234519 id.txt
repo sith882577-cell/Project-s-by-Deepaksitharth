@@ -1,0 +1,23 @@
+1749793336234519 id
+823583eae3d1737e790850f146f10efd appsecret
+https://postinto-523b5.firebaseapp.com/__/auth/handler
+
+
+
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBiBvgUvQbWUiiXXn-pm5zTbA1jXLflS3U",
+  authDomain: "postinto-523b5.firebaseapp.com",
+  projectId: "postinto-523b5",
+  storageBucket: "postinto-523b5.firebasestorage.app",
+  messagingSenderId: "954255983462",
+  appId: "1:954255983462:web:2fb6568f41682418297ea7"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
